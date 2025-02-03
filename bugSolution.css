@@ -1,0 +1,11 @@
+/* bugSolution.css */
+
+.parent {
+  width: 500px; /* Explicitly define the parent's width */
+}
+
+.child {
+  width: calc(100% - 10px);
+}
+
+/*Now calc() will work as expected*/
